@@ -6,4 +6,5 @@ recorder.addEventListener('change', e => {
     const url = URL.createObjectURL(file)
 
     player.src = url
+    player.play()
 })
