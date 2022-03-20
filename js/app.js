@@ -8,4 +8,5 @@ recorder.addEventListener('change', e => {
     document.write(url)
 
     player.url = url
+    player.play()
 })
