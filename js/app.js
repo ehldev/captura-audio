@@ -6,5 +6,8 @@ recorder.addEventListener('change', e => {
     const url = URL.createObjectURL(file)
 
     player.src = url
+
+    window.navigator.vibrate(5000);
+
     player.play()
 })
